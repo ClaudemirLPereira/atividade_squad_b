@@ -4,6 +4,7 @@ cadastro_produtos = [
 ]
 
 cadastro_produtos.append({"nome": "Monitor", "preco": 350.0})
+cadastro_produtos.append({"nome": "Headphone", "preco": 500.0})
 
 for item in cadastro_produtos:
     print(f"Produto: {item['nome']}, Preço: R${item['preco']:.2f}") 
